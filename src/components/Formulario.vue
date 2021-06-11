@@ -134,12 +134,12 @@
         this.cantNotas += 1
       },
       getColores(nota){
-        if(nota >=0 && nota<=3){
+        if(nota >=0 && nota<4){
           return  {
              color: 'red',
            }
           }
-          else if(nota >=4 && nota<=6){
+          else if(nota >=4 && nota<7){
             return  {
              color: 'yellow',
            }
